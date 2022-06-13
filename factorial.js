@@ -3,6 +3,7 @@ function factorial(number) {
     return 1;
   }
   return number * factorial(number - 1);
+
   //   let result = 1;
   //   for (let counter = number; counter > 0; counter -= 1) {
   //     result *= counter;
